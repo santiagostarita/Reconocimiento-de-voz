@@ -1,0 +1,46 @@
+
+body{
+    background: rgb(4,35,87);
+    background: linear-gradient(90deg, rgba(4,35,87,1) 0%, rgba(10,138,195,1) 50%, rgba(0,82,255,1) 100%);
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.texto{
+    border-radius: 10px;
+    width: 40%;
+    height: 20vh;
+    margin: 3rem 0 0 0;
+    padding: 1rem;
+    font-size: medium;
+    background-color: white;
+    color: black;
+}
+
+.talk{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid blue;
+background-color: #3fabf5;
+    font-weight: 700px;
+    font-size: large;
+    color: black;
+    padding: 2rem;
+    margin: 0;
+    box-shadow: 4px 3px 10px -4px rgba(0,0,0,0.50);
+}
+.talk:hover{
+    background-color: #3fd2f5;
+    box-shadow: 4px 3px 10px -4px rgba(0,0,0,0.80);
+}
