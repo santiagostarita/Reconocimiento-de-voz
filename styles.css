@@ -28,6 +28,7 @@ body {
 
 .texto {
   border-radius: 10px;
+  min-width: 400px;
   width: 40%;
   height: 20vh;
   margin: 3rem 0 0 0;
