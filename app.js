@@ -36,6 +36,7 @@ Recognition.onerror = function(event) {
     const msj = 'Error: ' + event.error
     console.log(msj);
     cont.textContent = msj;
+    readOutLoud("No has dicho nada");
     };
 
 Recognition.onspeechend = function() {
